@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A23CF7A721B62F4B0093BC4D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23CF7A621B62F4B0093BC4D /* UIView.swift */; };
 		A26BBA6321ABDD11005216D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BBA6221ABDD11005216D4 /* AppDelegate.swift */; };
 		A26BBA6521ABDD11005216D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BBA6421ABDD11005216D4 /* ViewController.swift */; };
 		A26BBA6821ABDD11005216D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26BBA6621ABDD11005216D4 /* Main.storyboard */; };
@@ -22,9 +23,12 @@
 		A26BBA8421ABE3F0005216D4 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BBA8321ABE3F0005216D4 /* Date.swift */; };
 		A26BBA8621ABE43E005216D4 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BBA8521ABE43E005216D4 /* Image.swift */; };
 		A26BBA8921ABFA0E005216D4 /* Tools-Swift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A26BBA8821ABFA0E005216D4 /* Tools-Swift.podspec */; };
+		A29F232F21B9253D004C478E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F232E21B9253D004C478E /* Logger.swift */; };
+		A29F233121B92585004C478E /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F233021B92585004C478E /* BaseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A23CF7A621B62F4B0093BC4D /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		A26BBA5F21ABDD11005216D4 /* Tools-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tools-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26BBA6221ABDD11005216D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A26BBA6421ABDD11005216D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		A26BBA8321ABE3F0005216D4 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		A26BBA8521ABE43E005216D4 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		A26BBA8821ABFA0E005216D4 /* Tools-Swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = "Tools-Swift.podspec"; sourceTree = SOURCE_ROOT; };
+		A29F232E21B9253D004C478E /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		A29F233021B92585004C478E /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,15 +95,18 @@
 		A26BBA7421ABE0F2005216D4 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				A26BBA7521ABE18C005216D4 /* JS.swift */,
 				A26BBA7721ABE292005216D4 /* Array.swift */,
 				A26BBA7921ABE304005216D4 /* Bundle.swift */,
-				A26BBA7B21ABE324005216D4 /* Dictionary.swift */,
-				A26BBA7D21ABE34D005216D4 /* Timer.swift */,
 				A26BBA7F21ABE37C005216D4 /* Color.swift */,
 				A26BBA8321ABE3F0005216D4 /* Date.swift */,
-				A26BBA8121ABE3AB005216D4 /* String.swift */,
+				A26BBA7B21ABE324005216D4 /* Dictionary.swift */,
 				A26BBA8521ABE43E005216D4 /* Image.swift */,
+				A26BBA7521ABE18C005216D4 /* JS.swift */,
+				A26BBA8121ABE3AB005216D4 /* String.swift */,
+				A26BBA7D21ABE34D005216D4 /* Timer.swift */,
+				A23CF7A621B62F4B0093BC4D /* UIView.swift */,
+				A29F232E21B9253D004C478E /* Logger.swift */,
+				A29F233021B92585004C478E /* BaseModel.swift */,
 			);
 			path = Tools;
 			sourceTree = SOURCE_ROOT;
@@ -184,12 +193,15 @@
 			files = (
 				A26BBA6521ABDD11005216D4 /* ViewController.swift in Sources */,
 				A26BBA8421ABE3F0005216D4 /* Date.swift in Sources */,
+				A29F233121B92585004C478E /* BaseModel.swift in Sources */,
 				A26BBA7821ABE292005216D4 /* Array.swift in Sources */,
 				A26BBA7E21ABE34D005216D4 /* Timer.swift in Sources */,
+				A23CF7A721B62F4B0093BC4D /* UIView.swift in Sources */,
 				A26BBA8221ABE3AB005216D4 /* String.swift in Sources */,
 				A26BBA6321ABDD11005216D4 /* AppDelegate.swift in Sources */,
 				A26BBA7A21ABE304005216D4 /* Bundle.swift in Sources */,
 				A26BBA8021ABE37C005216D4 /* Color.swift in Sources */,
+				A29F232F21B9253D004C478E /* Logger.swift in Sources */,
 				A26BBA7621ABE18C005216D4 /* JS.swift in Sources */,
 				A26BBA8621ABE43E005216D4 /* Image.swift in Sources */,
 				A26BBA7C21ABE324005216D4 /* Dictionary.swift in Sources */,

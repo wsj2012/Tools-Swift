@@ -40,7 +40,7 @@ extension Set: JSCompatible {}
 extension Data: JSCompatible {}
 extension Date: JSCompatible {}
 extension URL: JSCompatible {}
-//extension Device: YZTCompatible {}
+//extension Device: JSCompatible {}
 
 /* example
  
